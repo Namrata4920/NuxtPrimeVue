@@ -3,7 +3,7 @@
     <Sidebar />
     <div class="flex-1 ml-64">
       <Header />
-      <main class="p-4">
+      <main>
         <NuxtPage />
       </main>
     </div>

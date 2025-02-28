@@ -1,6 +1,6 @@
 <template>
   <div>
-    <CommonTypography variant="h4">Welcome to Home Page</CommonTypography>
-    <CommonBaseButton  variant="outline">Outline Button</CommonBaseButton >
+    <BaseTypography variant="h4">Welcome to Home Page</BaseTypography>
+    <BaseButton  variant="success">Outline Button</BaseButton >
   </div>
 </template>
