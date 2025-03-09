@@ -1,10 +1,10 @@
 <template>
     <div class="bg-gray-50 h-full pb-3">
       <div class="flex justify-between p-4">
-        <BaseTypography variant="h4">{{ title }}</BaseTypography>
+        <BaseTypography variant="h3">{{ title }}</BaseTypography>
         <BaseButton variant="success">
           <template #icon-right><i class="pi pi-file-export text-white text-lg ml-2"></i></template>
-          Export
+          Export as csv
         </BaseButton>
       </div>
   

@@ -4,7 +4,7 @@
     <div>
       <p class="font-semibold">Hi, Mrunali</p>
     </div>
-    <button class="h-12 w-12 rounded-lg bg-black text-white">M</button>
+    <button class="h-10 w-10 rounded-lg bg-black text-white">M</button>
   </header>
 </template>
   

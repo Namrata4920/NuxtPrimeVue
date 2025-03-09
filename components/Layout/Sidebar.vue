@@ -19,9 +19,9 @@
     </ul>
 
     <!-- Organization Section -->
-    <div class="mt-auto border-1 border-gray-300 p-3 rounded-lg flex items-center">
-      <i class="pi pi-users text-gray-500 mr-2"></i>
-      <span class="text-gray-700">Org Name</span>
+    <div class="mt-auto border-1 border-gray-300 p-3 rounded-lg flex items-center space-x-3">
+      <img src="../../assets/images/Icon.png" alt="Logo" class="h-6 w-6" />
+      <span>Hosachiguru</span>
     </div>
   </aside>
 </template>
