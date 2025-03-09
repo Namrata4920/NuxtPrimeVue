@@ -10,7 +10,7 @@
   
       <div class="rounded-lg mx-4 bg-white overflow-hidden">
         <!-- Selection Info -->
-        <div class="bg-red-100 text-red-700 p-4 flex justify-between items-center">
+        <div v-if="selectedRows.size > 0" class="bg-red-100 text-red-700 p-4 flex justify-between items-center">
           <span>{{ selectedRows.size }} selected</span>
           <button @click="emit('assignCredits')" class="flex items-center text-sm font-medium text-red-600 hover:underline">
             <i class="pi pi-plus-circle mr-1"></i> Assign credits

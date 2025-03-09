@@ -15,27 +15,27 @@
 <script setup>
 
 const rows = [
-  { id: 1, farmName: "Farm A", owner: "John", zone: "Zone 1", field: "F-20", size: "32.8", value: "20" },
-  { id: 2, farmName: "Farm B", owner: "Doe", zone: "Zone 2", field: "F-30", size: "15.4", value: "10" },
-  { id: 3, farmName: "Farm B", owner: "Doe", zone: "Zone 2", field: "F-30", size: "15.4", value: "10" },
-  { id: 4, farmName: "Farm B", owner: "Doe", zone: "Zone 2", field: "F-30", size: "15.4", value: "10" },
-  { id: 5, farmName: "Farm B", owner: "Doe", zone: "Zone 2", field: "F-30", size: "15.4", value: "10" },
-  { id: 6, farmName: "Farm B", owner: "Doe", zone: "Zone 2", field: "F-30", size: "15.4", value: "10" },
-  { id: 7, farmName: "Farm B", owner: "Doe", zone: "Zone 2", field: "F-30", size: "15.4", value: "10" },
-  { id: 8, farmName: "Farm B", owner: "Doe", zone: "Zone 2", field: "F-30", size: "15.4", value: "10" },
-  { id: 9, farmName: "Farm B", owner: "Doe", zone: "Zone 2", field: "F-30", size: "15.4", value: "10" },
-  { id: 10, farmName: "Farm B", owner: "Doe", zone: "Zone 2", field: "F-30", size: "15.4", value: "10" },
-  { id: 11, farmName: "Farm B", owner: "Doe", zone: "Zone 2", field: "F-30", size: "15.4", value: "10" },
-  { id: 12, farmName: "Farm B", owner: "Doe", zone: "Zone 2", field: "F-30", size: "15.4", value: "10" },
+  { id: 1, farmName: "Farm A", owner: "John", zone: "F-2,H-4, Q97", field: "20", size: "32.8", value: "20" },
+  { id: 2, farmName: "Farm B", owner: "Doe", zone: "F-2,H-4, Q97", field: "30", size: "15.4", value: "10" },
+  { id: 3, farmName: "Farm B", owner: "Doe", zone: "F-2,H-4, Q97", field: "30", size: "15.4", value: "10" },
+  { id: 4, farmName: "Farm B", owner: "Doe", zone: "F-2,H-4, Q97", field: "30", size: "15.4", value: "10" },
+  { id: 5, farmName: "Farm B", owner: "Doe", zone: "F-2,H-4, Q97", field: "30", size: "15.4", value: "10" },
+  { id: 6, farmName: "Farm B", owner: "Doe", zone: "F-2,H-4, Q97", field: "30", size: "15.4", value: "10" },
+  { id: 7, farmName: "Farm B", owner: "Doe", zone: "F-2,H-4, Q97", field: "30", size: "15.4", value: "10" },
+  { id: 8, farmName: "Farm B", owner: "Doe", zone: "F-2,H-4, Q97", field: "30", size: "15.4", value: "10" },
+  { id: 9, farmName: "Farm B", owner: "Doe", zone: "F-2,H-4, Q97", field: "30", size: "15.4", value: "10" },
+  { id: 10, farmName: "Farm B", owner: "Doe", zone: "F-2,H-4, Q97", field: "30", size: "15.4", value: "10" },
+  { id: 11, farmName: "Farm B", owner: "Doe", zone: "F-2,H-4, Q97", field: "30", size: "15.4", value: "10" },
+  { id: 12, farmName: "Farm B", owner: "Doe", zone: "F-2,H-4, Q97", field: "30", size: "15.4", value: "10" },
 ];
 
 const columns = [
-  { key: "farmName", label: "Farm Name" },
-  { key: "owner", label: "Owner" },
-  { key: "zone", label: "Zone" },
-  { key: "field", label: "Field" },
-  { key: "size", label: "Size" },
-  { key: "value", label: "Value" }
+  { key: "owner", label: "Customer Name" },
+  { key: "farmName", label: "Project" },
+  { key: "zone", label: "Plots" },
+  { key: "field", label: "Plots owned" },
+  { key: "size", label: "Total area in acres" },
+  { key: "value", label: "Available Credits" },
 ];
 
 const handleAssignCredits = () => {
