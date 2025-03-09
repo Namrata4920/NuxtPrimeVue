@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-50 h-full pb-3">
+    <div class="h-full pb-3">
       <div class="flex justify-between p-4">
         <BaseTypography variant="h3">{{ title }}</BaseTypography>
         <BaseButton variant="success">
